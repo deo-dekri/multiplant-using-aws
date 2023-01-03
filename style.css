@@ -1,0 +1,20 @@
+.aws-base{
+    background-color: #000;
+    white-space: normal;
+    height: 100vh;
+}
+
+.aws-top-bar{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.aws-content-bar{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.aws-bottom-bar{
+    background-color: aliceblue;
+    width: 100%;
+}
