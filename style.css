@@ -26,3 +26,31 @@
     height: 60px;
     font-size: 30px;
 }
+
+.top-bar-title{
+    background-color: aqua;
+    height: 60px;
+    width: 50%;
+    display: flex;
+}
+
+.top-bar-time{
+    background-color: azure;
+    height: 60px;
+    width: 50%;
+    display: flex;
+}
+
+.bar-title-text{
+    background-color: rgb(39, 29, 185);
+    height: 40px;
+    width: 50%;
+    margin: 10px;
+}
+
+.bar-time-text{
+    background-color: rgb(60, 185, 29);
+    height: 50px;
+    width: 50%;
+    margin: 5px;
+}
