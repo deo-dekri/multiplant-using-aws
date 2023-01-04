@@ -11,6 +11,7 @@
     width: 100%;
     height: 60px;
     font-size: 30px;
+    display: flex;
 }
 
 .aws-content-side{
@@ -18,6 +19,8 @@
     width: 100%;
     height: calc(100vh - 120px);
     font-size: 30px;
+    display: flex;
+    padding: 10px;
 }
 
 .aws-bottom-bar{
@@ -27,6 +30,8 @@
     font-size: 30px;
 }
 
+/* top bar */
+
 .top-bar-title{
     background-color: aqua;
     height: 60px;
@@ -35,10 +40,12 @@
 }
 
 .top-bar-time{
-    background-color: azure;
+    background-color: rgb(220, 37, 226);
     height: 60px;
     width: 50%;
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .bar-title-text{
@@ -50,7 +57,60 @@
 
 .bar-time-text{
     background-color: rgb(60, 185, 29);
-    height: 50px;
+    height: 40px;
     width: 50%;
-    margin: 5px;
+    margin-right: 10px ;
+}
+
+/* content side */
+.content-side-plant{
+    background-color: rgb(240, 98, 122);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-side-plant-mid{
+    margin: 0px 10px 0px 10px;
+}
+
+.side-plant-data-d{
+    background-color: rgb(98, 240, 117);    
+    width: 100%;
+    margin: 10px 10px 5px 10px;
+}
+
+.side-plant-data-a{
+    background-color: rgb(115, 46, 226);    
+    width: 100%;
+    margin: 5px 10px 10px 10px;
+}
+
+.plant-data-d-title, .plant-data-a-title{
+    background-color: rgb(226, 208, 46);    
+    width: 100%;
+    height: 20%;
+}
+
+.plant-data-d-data, .plant-data-a-data {
+    background-color: rgb(66, 4, 63);    
+    width: 100%;
+    height: 80%;
+}
+
+/* bottom bar */
+.bottom-bar-footer{
+    background-color: aqua;
+    height: 60px;
+    width: 50%;
+    display: flex;
+    margin: 0% 25% 0% 25%;
+}
+
+.bar-footer-text{
+    background-color: rgb(60, 185, 29);
+    height: 40px;
+    width: 40%;
+    margin: 10px 30% 10px 30%;
 }
