@@ -10,19 +10,22 @@
     background-color: #ffbbbb;
     width: 100%;
     height: 60px;
-    margin: 0px;
+    margin: none;
     text-align: center;
-    line-height: 0px;
+    line-height: none;
     font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .aws-content-side{
     background-color: #e3ffbd;
     width: 100%;
     height: calc(100vh - 120px);  
-    margin: 0px;
+    margin: none;
     text-align: center;
-    line-height: 0px;
+    line-height: none;
     font-size: 30px;
 }
 
@@ -30,8 +33,17 @@
     background-color: #adecff;
     width: 100%;
     height: 60px;
-    margin: 0px;
+    margin: none;
     text-align: center;
-    line-height: 0px;
+    line-height: none;
     font-size: 30px;
+}
+
+.page-title{
+    display: flex;
+    background-color: lightblue;
+    text-align: center;
+    
+
+    
 }
